@@ -1,6 +1,6 @@
 This repository is mainly about data mining
 ====
-Data mining is really important, the core of data mining is washing data. The really data or first hand data is always difficult to deal with directly. We need to deal with these data ,wash them in order to adopt machine learning methods for our application.
+Data mining is really important, the core of data mining is washing data. The really data or first hand data is always difficult to deal with directly. We need to deal with these data ,wash them in order to adopt machine learning methods for our application. 
 
 The first practice is the Diabetes 130-US hospitals for years 1999-2008 Data-Set
 ----
@@ -16,7 +16,7 @@ The dataset represents 10 years (1999-2008) of clinical care at 130 US hospitals
 This dataset is complicated and unbalanced. Let's do it!
 ----
 Look at the label:`eadmitted`,we visualize it by groups
-![](https://github.com/BoXiao123/data_mining/raw/master/result/Figure_1.png)
+![](https://github.com/BoXiao123/data_mining/raw/master/img/Figure_1.png)
 
 there are three types of labels. We just regroup it to two labels.
 
@@ -24,25 +24,25 @@ there are three types of labels. We just regroup it to two labels.
 
 Then we look at the feature:`age`, we visualize it by groups
 
-![](https://github.com/BoXiao123/data_mining/raw/master/result/Figure_2.png)
+![](https://github.com/BoXiao123/data_mining/raw/master/img/Figure_2.png)
 
 We find it really unbalance,then regroup this feature.
 
-![](https://github.com/BoXiao123/data_mining/raw/master/result/Figure_3.png)
+![](https://github.com/BoXiao123/data_mining/raw/master/img/Figure_3.png)
 
 It is better now.
 
 There are two many features in this dataset, but many of features are noisy. We use random forest to evaluate the importance of each features and rank them.
 
-![](https://github.com/BoXiao123/data_mining/raw/master/result/Figure_4.png)
+![](https://github.com/BoXiao123/data_mining/raw/master/img/Figure_4.png)
 
 Ok, we just select Top 10 features for the following procedure. We have washed this dataset and could apply our machine learning algorithm. 
 
 Using k-means for clustering and ROC for evaluation
 
-![](https://github.com/BoXiao123/data_mining/raw/master/result/Figure_5.png)
+![](https://github.com/BoXiao123/data_mining/raw/master/img/Figure_5.png)
 
-![](https://github.com/BoXiao123/data_mining/raw/master/result/Figure_7.png)
+![](https://github.com/BoXiao123/data_mining/raw/master/img/Figure_7.png)
 
 The second practice is using SVM
 ----
@@ -50,15 +50,15 @@ The SVM is an important classify in machine learning, we need to practice how to
 
 First we create some fake data for classification
 
-![](https://github.com/BoXiao123/data_mining/raw/master/result/Figure_8.png)
+![](https://github.com/BoXiao123/data_mining/raw/master/img/Figure_8.png)
 
 Then we use 10 fold cross validation to choose paramater gamma
 
-![](https://github.com/BoXiao123/data_mining/raw/master/result/Figure_9.png)
+![](https://github.com/BoXiao123/data_mining/raw/master/img/Figure_9.png)
 
 We can adopt SVC and draw the hyperplane
 
-![](https://github.com/BoXiao123/data_mining/raw/master/result/Figure_10.png)
+![](https://github.com/BoXiao123/data_mining/raw/master/img/Figure_10.png)
 
 
 
