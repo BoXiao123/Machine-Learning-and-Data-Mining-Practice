@@ -1,10 +1,10 @@
 This repository is mainly about machine learning and data mining
 ====
 This repository includes four main parts
-	An example of data mining of Diabetes dataset
-	An example of using keras for kaggle otto classification
-	An example of using MXNET for kaggle dog competition
-
+		An example of data mining of Diabetes dataset
+		An example of using keras for kaggle otto classification
+		An example of using MXNET for kaggle dog competition
+		An example of using Sk-learn SVM classifier
 The first practice is the Diabetes 130-US hospitals for years 1999-2008 Data-Set
 ----
 
@@ -53,10 +53,13 @@ The Otto Group is one of the world’s biggest e-commerce companies, with subsid
 
 A consistent analysis of the performance of our products is crucial. However, due to our diverse global infrastructure, many identical products get classified differently. Therefore, the quality of our product analysis depends heavily on the ability to accurately cluster similar products. The better the classification, the more insights we can generate about our product range.
 
-![](https://github.com/BoXiao123/data_mining/raw/master/img/Figure_11.jpg)
+![](https://github.com/BoXiao123/data_mining/raw/master/img/11.jpg)
 
 For this competition, there have provided a dataset with 93 features for more than 200,000 products. The objective is to build a predictive model which is able to distinguish between our main product categories.
 
+We are going to build a simple ANN to do this work. The structure is shown below
+
+![](https://github.com/BoXiao123/data_mining/raw/master/img/12.jpg)
 
 
 The Fourth practice is using SVM
