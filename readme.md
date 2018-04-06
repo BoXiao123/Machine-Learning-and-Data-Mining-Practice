@@ -1,10 +1,9 @@
 This repository is mainly about machine learning and data mining
 ====
-This repository includes four main parts'
+This repository includes three main parts'
 
 	An example of data mining of Diabetes dataset
 	An example of using keras for kaggle otto classification
-	An example of using MXNET for kaggle dog competition
 	An example of using Sk-learn SVM classifier
 		
 The first practice is the Diabetes 130-US hospitals for years 1999-2008 Data-Set
@@ -64,7 +63,7 @@ We are going to build a simple ANN to do this work. The structure is shown below
 ![](https://github.com/BoXiao123/Machine-Learning-and-Data-Mining-Practice/raw/master/img/12.png)
 
 
-The Fourth practice is using SVM
+The third practice is using SVM
 ----
 The SVM is an important classify in machine learning, we need to practice how to use the SVC in sklearn lib. You can see all codes in SVM.py
 
