@@ -15,15 +15,20 @@ The dataset represents 10 years (1999-2008) of clinical care at 130 US hospitals
 
 This dataset is complicated and unbalanced. Let's do it!
 ----
-Look at the label:'readmitted',we visualize it by groups
+Look at the label:`eadmitted`,we visualize it by groups
 ![](https://github.com/BoXiao123/data_mining/raw/master/result/Figure_1.png)
 
 there are three types of labels. We just regroup it to two labels.
+
 	data['readmitted'] = pd.Series([0 if val == 'NO' else 1 for val in data['readmitted']])
 
-Then we look at the feature:'age', we visualize it by groups
+Then we look at the feature:`age`, we visualize it by groups
+
 ![](https://github.com/BoXiao123/data_mining/raw/master/result/Figure_2.png)
+
 We find it really unbalance,then regroup this feature.
+
 ![](https://github.com/BoXiao123/data_mining/raw/master/result/Figure_3.png)
+
 It is better now.
 
