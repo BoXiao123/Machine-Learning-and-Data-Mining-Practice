@@ -1,0 +1,131 @@
+/usr/bin/python2.7 /home/b_xi/things/cw2/mysolution.py
+data shape is:  (101766, 50)
+data head is:     encounter_id  patient_nbr             race  gender      age weight  \
+0       2278392      8222157        Caucasian  Female   [0-10)      ?   
+1        149190     55629189        Caucasian  Female  [10-20)      ?   
+2         64410     86047875  AfricanAmerican  Female  [20-30)      ?   
+3        500364     82442376        Caucasian    Male  [30-40)      ?   
+4         16680     42519267        Caucasian    Male  [40-50)      ?   
+
+   admission_type_id  discharge_disposition_id  admission_source_id  \
+0                  6                        25                    1   
+1                  1                         1                    7   
+2                  1                         1                    7   
+3                  1                         1                    7   
+4                  1                         1                    7   
+
+   time_in_hospital    ...     citoglipton insulin  glyburide-metformin  \
+0                 1    ...              No      No                   No   
+1                 3    ...              No      Up                   No   
+2                 2    ...              No      No                   No   
+3                 2    ...              No      Up                   No   
+4                 1    ...              No  Steady                   No   
+
+   glipizide-metformin  glimepiride-pioglitazone  metformin-rosiglitazone  \
+0                   No                        No                       No   
+1                   No                        No                       No   
+2                   No                        No                       No   
+3                   No                        No                       No   
+4                   No                        No                       No   
+
+   metformin-pioglitazone  change diabetesMed readmitted  
+0                      No      No          No         NO  
+1                      No      Ch         Yes        >30  
+2                      No      No         Yes         NO  
+3                      No      Ch         Yes         NO  
+4                      No      Ch         Yes         NO  
+
+[5 rows x 50 columns]
+data information is: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 101766 entries, 0 to 101765
+Data columns (total 50 columns):
+encounter_id                101766 non-null int64
+patient_nbr                 101766 non-null int64
+race                        101766 non-null object
+gender                      101766 non-null object
+age                         101766 non-null object
+weight                      101766 non-null object
+admission_type_id           101766 non-null int64
+discharge_disposition_id    101766 non-null int64
+admission_source_id         101766 non-null int64
+time_in_hospital            101766 non-null int64
+payer_code                  101766 non-null object
+medical_specialty           101766 non-null object
+num_lab_procedures          101766 non-null int64
+num_procedures              101766 non-null int64
+num_medications             101766 non-null int64
+number_outpatient           101766 non-null int64
+number_emergency            101766 non-null int64
+number_inpatient            101766 non-null int64
+diag_1                      101766 non-null object
+diag_2                      101766 non-null object
+diag_3                      101766 non-null object
+number_diagnoses            101766 non-null int64
+max_glu_serum               101766 non-null object
+A1Cresult                   101766 non-null object
+metformin                   101766 non-null object
+repaglinide                 101766 non-null object
+nateglinide                 101766 non-null object
+chlorpropamide              101766 non-null object
+glimepiride                 101766 non-null object
+acetohexamide               101766 non-null object
+glipizide                   101766 non-null object
+glyburide                   101766 non-null object
+tolbutamide                 101766 non-null object
+pioglitazone                101766 non-null object
+rosiglitazone               101766 non-null object
+acarbose                    101766 non-null object
+miglitol                    101766 non-null object
+troglitazone                101766 non-null object
+tolazamide                  101766 non-null object
+examide                     101766 non-null object
+citoglipton                 101766 non-null object
+insulin                     101766 non-null object
+glyburide-metformin         101766 non-null object
+glipizide-metformin         101766 non-null object
+glimepiride-pioglitazone    101766 non-null object
+metformin-rosiglitazone     101766 non-null object
+metformin-pioglitazone      101766 non-null object
+change                      101766 non-null object
+diabetesMed                 101766 non-null object
+readmitted                  101766 non-null object
+dtypes: int64(13), object(37)
+memory usage: 38.8+ MB
+None
+weight feature NA rate is:  0.968584792563
+medical_speciality NA rate is:  0.490822082031
+race NA is:  0.0223355541143
+diag1 NA is:  0.000206355757326
+diag2 NA is:  0.00351787433917
+diag3 NA is:  0.013983059175
+gender NA is:  2.94793939037e-05
+/usr/local/lib/python2.7/dist-packages/sklearn/cross_validation.py:41: DeprecationWarning: This module was deprecated in version 0.18 in favor of the model_selection module into which all the refactored classes and functions are moved. Also note that the interface of the new CV iterators are different from that of this module. This module will be removed in 0.20.
+  "This module will be removed in 0.20.", DeprecationWarning)
+Top 10 important features are: 
+num_lab_procedures
+num_medications
+time_in_hospital
+num_procedures
+number_inpatient
+number_diagnoses
+number_outpatient
+diag_3
+number_emergency
+Male
+[1354773.2308265003]
+[1354773.2308265003, 1222776.1236809222]
+[1354773.2308265003, 1222776.1236809222, 1145113.2512497329]
+[1354773.2308265003, 1222776.1236809222, 1145113.2512497329, 1085813.5386691887]
+[1354773.2308265003, 1222776.1236809222, 1145113.2512497329, 1085813.5386691887, 1044935.3624430671]
+[1354773.2308265003, 1222776.1236809222, 1145113.2512497329, 1085813.5386691887, 1044935.3624430671, 998358.91345850297]
+[1354773.2308265003, 1222776.1236809222, 1145113.2512497329, 1085813.5386691887, 1044935.3624430671, 998358.91345850297, 966919.01629252813]
+[1354773.2308265003, 1222776.1236809222, 1145113.2512497329, 1085813.5386691887, 1044935.3624430671, 998358.91345850297, 966919.01629252813, 939650.2995481164]
+[ 0.08350525 -0.3028411 ]
+LR score is:  0.619276917843
+RF score is:  0.589483167852
+NB score is:  0.600049014721
+0.618936890629
+AUC score is:  0.658033938211
+
+Process finished with exit code 0
+
