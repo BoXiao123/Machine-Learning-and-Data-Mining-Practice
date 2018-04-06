@@ -1,6 +1,9 @@
-This repository is mainly about data mining
+This repository is mainly about machine learning and data mining
 ====
-Data mining is really important, the core of data mining is washing data. The really data or first hand data is always difficult to deal with directly. We need to deal with these data ,wash them in order to adopt machine learning methods for our application. 
+This repository includes four main parts
+	An example of data mining of Diabetes dataset
+	An example of using keras for kaggle otto classification
+	An example of using MXNET for kaggle dog competition
 
 The first practice is the Diabetes 130-US hospitals for years 1999-2008 Data-Set
 ----
@@ -44,7 +47,19 @@ Using k-means for clustering and ROC for evaluation
 
 ![](https://github.com/BoXiao123/data_mining/raw/master/img/Figure_7.png)
 
-The second practice is using SVM
+The second practice is kaggle otto classification
+-----
+The Otto Group is one of the world’s biggest e-commerce companies, with subsidiaries in more than 20 countries, including Crate & Barrel (USA), Otto.de (Germany) and 3 Suisses (France). We are selling millions of products worldwide every day, with several thousand products being added to our product line.
+
+A consistent analysis of the performance of our products is crucial. However, due to our diverse global infrastructure, many identical products get classified differently. Therefore, the quality of our product analysis depends heavily on the ability to accurately cluster similar products. The better the classification, the more insights we can generate about our product range.
+
+![](https://github.com/BoXiao123/data_mining/raw/master/img/Figure_11.jpg)
+
+For this competition, there have provided a dataset with 93 features for more than 200,000 products. The objective is to build a predictive model which is able to distinguish between our main product categories.
+
+
+
+The Fourth practice is using SVM
 ----
 The SVM is an important classify in machine learning, we need to practice how to use the SVC in sklearn lib. You can see all codes in SVM.py
 
