@@ -44,3 +44,21 @@ Using k-means for clustering and ROC for evaluation
 
 ![](https://github.com/BoXiao123/data_mining/raw/master/result/Figure_7.png)
 
+The second practice is using SVM
+----
+The SVM is an important classify in machine learning, we need to practice how to use the SVC in sklearn lib. You can see all codes in SVM.py
+
+First we create some fake data for classification
+
+![](https://github.com/BoXiao123/data_mining/raw/master/result/Figure_8.png)
+
+Then we use 10 fold cross validation to choose paramater gamma
+
+![](https://github.com/BoXiao123/data_mining/raw/master/result/Figure_9.png)
+
+We can adopt SVC and draw the hyperplane
+
+![](https://github.com/BoXiao123/data_mining/raw/master/result/Figure_10.png)
+
+
+
