@@ -32,3 +32,15 @@ We find it really unbalance,then regroup this feature.
 
 It is better now.
 
+There are two many features in this dataset, but many of features are noisy. We use random forest to evaluate the importance of each features and rank them.
+
+![](https://github.com/BoXiao123/data_mining/raw/master/result/Figure_4.png)
+
+Ok, we just select Top 10 features for the following procedure. We have washed this dataset and could apply our machine learning algorithm. 
+
+Using k-means for clustering and ROC for evaluation
+
+![](https://github.com/BoXiao123/data_mining/raw/master/result/Figure_5.png)
+
+![](https://github.com/BoXiao123/data_mining/raw/master/result/Figure_7.png)
+
