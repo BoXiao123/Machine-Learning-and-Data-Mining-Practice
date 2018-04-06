@@ -1,10 +1,12 @@
 This repository is mainly about machine learning and data mining
 ====
-This repository includes four main parts
-		An example of data mining of Diabetes dataset
-		An example of using keras for kaggle otto classification
-		An example of using MXNET for kaggle dog competition
-		An example of using Sk-learn SVM classifier
+This repository includes four main parts'
+
+	An example of data mining of Diabetes dataset
+	An example of using keras for kaggle otto classification
+	An example of using MXNET for kaggle dog competition
+	An example of using Sk-learn SVM classifier
+		
 The first practice is the Diabetes 130-US hospitals for years 1999-2008 Data-Set
 ----
 
@@ -19,7 +21,7 @@ The dataset represents 10 years (1999-2008) of clinical care at 130 US hospitals
 This dataset is complicated and unbalanced. Let's do it!
 ----
 Look at the label:`eadmitted`,we visualize it by groups
-![](https://github.com/BoXiao123/data_mining/raw/master/img/Figure_1.png)
+![](https://github.com/BoXiao123/Machine-Learning-and-Data-Mining-Practice/raw/master/img/Figure_1.png)
 
 there are three types of labels. We just regroup it to two labels.
 
@@ -27,25 +29,25 @@ there are three types of labels. We just regroup it to two labels.
 
 Then we look at the feature:`age`, we visualize it by groups
 
-![](https://github.com/BoXiao123/data_mining/raw/master/img/Figure_2.png)
+![](https://github.com/BoXiao123/Machine-Learning-and-Data-Mining-Practice/raw/master/img/Figure_2.png)
 
 We find it really unbalance,then regroup this feature.
 
-![](https://github.com/BoXiao123/data_mining/raw/master/img/Figure_3.png)
+![](https://github.com/BoXiao123/Machine-Learning-and-Data-Mining-Practice/raw/master/img/Figure_3.png)
 
 It is better now.
 
 There are two many features in this dataset, but many of features are noisy. We use random forest to evaluate the importance of each features and rank them.
 
-![](https://github.com/BoXiao123/data_mining/raw/master/img/Figure_4.png)
+![](https://github.com/BoXiao123/Machine-Learning-and-Data-Mining-Practice/raw/master/img/Figure_4.png)
 
 Ok, we just select Top 10 features for the following procedure. We have washed this dataset and could apply our machine learning algorithm. 
 
 Using k-means for clustering and ROC for evaluation
 
-![](https://github.com/BoXiao123/data_mining/raw/master/img/Figure_5.png)
+![](https://github.com/BoXiao123/Machine-Learning-and-Data-Mining-Practice/raw/master/img/Figure_5.png)
 
-![](https://github.com/BoXiao123/data_mining/raw/master/img/Figure_7.png)
+![](https://github.com/BoXiao123/Machine-Learning-and-Data-Mining-Practice/raw/master/img/Figure_7.png)
 
 The second practice is kaggle otto classification
 -----
@@ -53,13 +55,13 @@ The Otto Group is one of the world’s biggest e-commerce companies, with subsid
 
 A consistent analysis of the performance of our products is crucial. However, due to our diverse global infrastructure, many identical products get classified differently. Therefore, the quality of our product analysis depends heavily on the ability to accurately cluster similar products. The better the classification, the more insights we can generate about our product range.
 
-![](https://github.com/BoXiao123/data_mining/raw/master/img/11.jpg)
+![](https://github.com/BoXiao123/Machine-Learning-and-Data-Mining-Practice/raw/master/img/11.jpg)
 
 For this competition, there have provided a dataset with 93 features for more than 200,000 products. The objective is to build a predictive model which is able to distinguish between our main product categories.
 
 We are going to build a simple ANN to do this work. The structure is shown below
 
-![](https://github.com/BoXiao123/data_mining/raw/master/img/12.jpg)
+![](https://github.com/BoXiao123/Machine-Learning-and-Data-Mining-Practice/raw/master/img/12.png)
 
 
 The Fourth practice is using SVM
@@ -68,15 +70,15 @@ The SVM is an important classify in machine learning, we need to practice how to
 
 First we create some fake data for classification
 
-![](https://github.com/BoXiao123/data_mining/raw/master/img/Figure_8.png)
+![](https://github.com/BoXiao123/Machine-Learning-and-Data-Mining-Practice/raw/master/img/Figure_8.png)
 
 Then we use 10 fold cross validation to choose paramater gamma
 
-![](https://github.com/BoXiao123/data_mining/raw/master/img/Figure_9.png)
+![](https://github.com/BoXiao123/Machine-Learning-and-Data-Mining-Practice/raw/master/img/Figure_9.png)
 
 We can adopt SVC and draw the hyperplane
 
-![](https://github.com/BoXiao123/data_mining/raw/master/img/Figure_10.png)
+![](https://github.com/BoXiao123/Machine-Learning-and-Data-Mining-Practice/raw/master/img/Figure_10.png)
 
 
 
